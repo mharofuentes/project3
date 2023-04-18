@@ -58,9 +58,9 @@ p {
   text-decoration: none;
 }
 @media screen and (max-width: 500px) {
-  .topnav a {
-    float: none;
-    width: 100%;
+.topnav a {
+  float: none;
+  width: 100%;
   }
 }
 .img {
