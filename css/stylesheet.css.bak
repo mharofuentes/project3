@@ -52,12 +52,6 @@ p {
   color: #FFF0F5;
   text-decoration: none;
 }
-@media screen and (max-width: 320px) {
-  .topnav a {
-    float: none;
-    width: 100%;
-  }
-}
 .img {
   width: 100%;
   max-width: 900px;
