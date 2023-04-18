@@ -5,7 +5,12 @@ body {
 body.resume {
   background-color: #F0F8FF;
 }
-
+/*background image for index page */ 
+body.index {
+  background-image: url("/images/forest.jpg");
+  background-color: #228B22;
+  background-position: center;
+}
 h1, h2 {
   font-family: 'Crete Round', serif;
   font-style: normal;
@@ -51,6 +56,12 @@ p {
   background-color: #DDA0DD;
   color: #FFF0F5;
   text-decoration: none;
+}
+@media screen and (max-width: 500px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
 }
 .img {
   width: 100%;
