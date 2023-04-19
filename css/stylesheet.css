@@ -1,3 +1,9 @@
+@media screen and (min-width: 800px) {
+.wrapper {
+  display: grid;
+  grid-template-columns: 2fr 3fr
+}
+		 
 /*background color*/ 
 body {
   background-color: #90EE90;
@@ -61,6 +67,7 @@ p {
 .nav a {
   float: none;
   width: 100%;
+  }
 }
 
 .img {
