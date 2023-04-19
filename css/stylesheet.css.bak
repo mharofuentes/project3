@@ -33,7 +33,8 @@ p {
   color: #191970;
   font-size: 32px;
   text-align: center;
-}li {
+}
+li {
   font-family: Arial, sans-serif;
   font-size: 30px;
   text-align: center;
@@ -60,7 +61,7 @@ p {
   color: #FFF0F5;
   text-decoration: none;
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
   .nav a {
     float: none;
     width: 100%;
