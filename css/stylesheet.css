@@ -1,7 +1,7 @@
 @media screen and (max-width: 800px){
   width: 801px;{
     }
-
+}
 /*background color*/ 
 body {
   background-color: #90EE90;
@@ -102,5 +102,4 @@ p {
 iframe {
   display:block;
   width:60%;
-}
 }
