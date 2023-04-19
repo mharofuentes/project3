@@ -1,14 +1,14 @@
-@media screen and (min-width: 500px) 
-#leftsidebar {width: 200px; float: left;}
- #main {margin-left: 200px;}
-}
-		 
 /*background color*/ 
 body {
   background-color: #90EE90;
 }
 body.resume {
   background-color: #F0F8FF;
+}
+/*background image for index page */ 
+body.index {
+  background-color: #228B22;
+  background-position: center;
 }
 h1, h2 {
   font-family: 'Crete Round', serif;
@@ -57,12 +57,11 @@ p {
   text-decoration: none;
 }
 @media screen and (max-width: 500px) {
-.nav a {
-  float: none;
-  width: 100%;
+  .topnav a {
+    float: none;
+    width: 100%;
   }
 }
-
 .img {
   width: 100%;
   max-width: 900px;
