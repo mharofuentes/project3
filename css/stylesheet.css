@@ -1,8 +1,8 @@
-@media screen and (min-width: 800px) {
-.wrapper {
-  display: grid;
-  grid-template-columns: 2fr 3fr
+@media screen and (min-width: 400px) {
+  #leftsidebar {width: 200px; float: left;}
+  #main {margin-left: 200px;}
 }
+
 		 
 /*background color*/ 
 body {
@@ -10,12 +10,6 @@ body {
 }
 body.resume {
   background-color: #F0F8FF;
-}
-/*background image for index page */ 
-body.index {
-  background-image: url("/images/forest.jpg");
-  background-color: #228B22;
-  background-position: center;
 }
 h1, h2 {
   font-family: 'Crete Round', serif;
