@@ -1,1 +1,22 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Map</title>
+ <link rel="stylesheet" type="text/css" href="css/normalize.css">
+ <link rel="stylesheet" href="css/stylesheet.css">
+ <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crete+Round&display=swap">
+</head>
+<body>
+  <header>
+      <div class="nav">
+        <a href="index.html">Historic Places in Illinois</a>
+        <a href="resume.html">Resume</a>
+        <a href="page3.html">Cat Care</a>
+		<a href="map.html">Map</a>
+      </div>
+	 <h2> Ilinois Tech </h2>
+   </header>
+ </body>
+ </html>
+  

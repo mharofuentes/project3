@@ -1,6 +1,5 @@
 @media screen and (max-width: 1000px){
-  body {
-  width: 1001px;
+  width: 1001px;{
     }
 }
 /*background color*/ 
@@ -62,7 +61,7 @@ li {
   color: #FFF0F5;
   text-decoration: none;
 }
-@media screen and (max-width: 700px) {
+@media only screen and (max-width: 800px) {
   .nav a {
     float: none;
     width: 100%;
