@@ -1,5 +1,5 @@
 let map;
-let iitLatLong = { lat: 41.835080908035344, lng: -87.62698444545988  }
+let iitLatLong = { lat: 41.835080908035344, lng: -87.62698444545988  };
 
 async function initMap() {
   //@ts-ignore
