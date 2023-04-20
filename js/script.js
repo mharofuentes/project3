@@ -1,13 +1,20 @@
-let map;
+function initMap() {
+  var mapOptions = {
+	zoom: 8,
+	center: new google.maps.LatLng(41.835080908035344, -87.62698444545988),
+	mapTypeId: 'satellite'
+};
 
-async function initMap() {
-
-  map = new Map(document.getElementById("map"), {
-    center: { lat: 41.835080908035344, lng: -87.62698444545988 },
-    zoom: 8,
-  });
+var map = new google.maps.Map(document.getElementById('map'), mapOptions);
 }
 
-initMap();
+
+
+
+
+
+
+
+
 
 
