@@ -19,7 +19,6 @@ function initMap(){
 		animation: google.maps.Animation.BOUNCE,
 	});
 
-	var contentString = <h1>Big River State Forest</h1>;
 
 	var infowindow = new google.maps.InfoWindow({
       content: contentString

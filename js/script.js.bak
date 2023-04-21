@@ -1,4 +1,4 @@
-function init(){
+function initMap(){
 	//alert('it works');
 	var el = document.getElementById('canvas');
 	var myLocation = new google.maps.LatLng(41.06118524999838, -90.93840600404329);
@@ -19,7 +19,7 @@ function init(){
 		animation: google.maps.Animation.BOUNCE,
 	});
 
-	var contentString = '<h1>Big River State Forest</h1>;
+	var contentString = <h1>Big River State Forest</h1>;
 
 	var infowindow = new google.maps.InfoWindow({
       content: contentString
