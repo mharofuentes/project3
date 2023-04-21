@@ -104,12 +104,16 @@ iframe {
   display:block;
   width:60%;
 }
-#map {
-  height: 100%;
-}
-html,
-body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
+#wrapper {
+  width: 950px;
+  height: 750px;
+  background-color: #7FFF00;
+  margin:0 auto;
+  overflow: hidden;
+		}
+#canvas {
+  width: 700px;
+  height: 500px;
+  background-color: #008B8B;
+  margin: 40px auto;
+		}
